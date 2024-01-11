@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>스케줄</title>
+        <link rel="stylesheet" href="schedule.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+            <!--input-->
+            <form>
+                <div class="d">날짜:
+                    <input type="text" name="날짜" id="dates" />
+                </div>
+                <div class="c">내용:
+                    <input type="text" name="내용" id="contents" />
+                </div>
+            </form>
+            <button>작성</button>
+            <!--달력-->
+            <h1>2024년 1월</h1>
+            <table class="calender">
+                <thead>
+                    <tr>
+                        <th style="color: red;">日</th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="calender-dates">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="calender-content1">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <script src="schedule.js"></script>
+    </body>
+</html>
